@@ -23,9 +23,11 @@
     <script>
         Vue.component('web', {
             data() {
-                return {}
+                return {
+                    me: 111
+                }
             },
-            template: `<div> <h2> hello world</h2> </div>`
+            template: `<div> <h2> hello world 你好！太阳</h2> </div>`
         })
         new Vue({
             el: "#app",
